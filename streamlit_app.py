@@ -104,7 +104,6 @@ st.markdown("""
 # Sidebar for EDA
 st.sidebar.title("📊 Data Insights")
 eda_option = st.sidebar.selectbox(
-    "The Breast Cancer Predictor is a machine learning web app built using Streamlit that leverages a Support Vector Machine (SVM) model to classify tumors as benign or malignant based on diagnostic features from the popular breast cancer dataset. The project includes data preprocessing with scaling techniques, dimensionality reduction via PCA for visualization, and an interactive UI to explore feature distributions and make predictions in real-time. It offers an accessible tool for educational and preliminary screening insights, highlighting the power of AI in healthcare diagnostics.",
     "Choose an insight:",
     ("Prediction Software", "Target Distribution", "Correlation Heatmap", "Target Boxplot", "Feature Distribution", "PCA Plot", "Feature Boxplots")
 )
