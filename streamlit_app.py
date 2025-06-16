@@ -102,10 +102,22 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Sidebar for EDA
+st.sidebar.markdown(
+    "A Streamlit-based web app that uses an SVM model to predict whether a breast tumor is benign or malignant. It features real-time predictions, PCA-based visualizations, and showcases the role of AI in medical diagnostics."
+)
+
 st.sidebar.title("📊 Data Insights")
 eda_option = st.sidebar.selectbox(
     "Choose an insight:",
-    ("Prediction Software", "Target Distribution", "Correlation Heatmap", "Target Boxplot", "Feature Distribution", "PCA Plot", "Feature Boxplots")
+    (
+        "Prediction Software",
+        "Target Distribution",
+        "Correlation Heatmap",
+        "Target Boxplot",
+        "Feature Distribution",
+        "PCA Plot",
+        "Feature Boxplots"
+    )
 )
 
 # EDA Visualization
