@@ -6,7 +6,7 @@ A deployed web application built with **Streamlit**, powered by an **SVM machine
 
 ## 🚀 Live Demo
 
-👉 [Launch the App]((https://breastcancerdetector-zyusiavbnydvekapmguvrh.streamlit.app/))  
+👉 [Launch the App] (https://breastcancerdetector-zyusiavbnydvekapmguvrh.streamlit.app/)
 ![image](https://github.com/user-attachments/assets/0cc23802-2df5-42e9-a56c-9ebd581dd1b3)
 ![image](https://github.com/user-attachments/assets/ac10be71-807d-4105-aa79-7cea86ff1034)
 ![image](https://github.com/user-attachments/assets/f59af344-2cec-4c4e-adc9-ff5e4e125a5e)
