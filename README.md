@@ -18,9 +18,7 @@ A deployed web application built with **Streamlit**, powered by an **SVM machine
 - 📋 Input 30 diagnostic features from breast cancer cell nuclei
 - 🧠 Predict tumor classification: **Malignant** or **Benign**
 - 📈 PCA-based 2D visualization with diagnosis clusters
-- 📊 Display model confidence score (via `predict_proba`)
-- 🔐 Securely log inputs & predictions to **Firestore**
-- ☁️ Firebase integration handled via **Streamlit Secrets**
+- 🔐 Securely logs data to **Firestore**
 
 ---
 
